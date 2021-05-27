@@ -3,8 +3,14 @@
 }
 body {
   font-size: 14px;
+  padding: 30px;
 }
-.image {
+
+button {
+  cursor: pointer;
+}
+
+.Container {
   width: 100%;
   height: 900px;
   background: rgba(255, 255, 255, 1);
@@ -14,16 +20,17 @@ body {
   left: 0px;
   overflow: hidden;
 }
-.v38_3 {
-  width: 581px;
-  height: 900px;
-  background: rgba(246, 246, 246, 1);
-  opacity: 1;
+.ContainerLogin {
+  width: 100%;
+  height: 100%;
+  background: red;
   position: absolute;
   top: 0px;
-  left: 859px;
+  left: 800px;
   overflow: hidden;
+  margin: 100px;
 }
+
 .v37_2 {
   width: 463px;
   height: 49px;
@@ -38,7 +45,7 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v37_19 {
+.textInput1 {
   width: 191px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -104,63 +111,31 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v37_13 {
+.inputUser {
   width: 27px;
   height: 24px;
-  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 483px;
   left: 921px;
   overflow: hidden;
+  text-align: center;
+  justify-content: center;
 }
-.v37_14 {
-  width: 18px;
-  height: 16px;
-  background: rgba(0, 0, 0, 1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 4px;
-}
-.v37_15 {
+
+.inputPassword {
   width: 27px;
   height: 24px;
-  background: url("../images/v37_15.png");
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-.v37_16 {
-  width: 27px;
-  height: 24px;
-  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: absolute;
   top: 561px;
   left: 921px;
   overflow: hidden;
+  text-align: center;
+  justify-content: center;
 }
-.v37_17 {
-  width: 27px;
-  height: 24px;
-  background: url("../images/v37_17.png");
-  opacity: 1;
-  position: absolute;
-  top: 0px;
-  left: 0px;
-}
-.v37_18 {
-  width: 18px;
-  height: 21px;
-  background: rgba(0, 0, 0, 1);
-  opacity: 1;
-  position: absolute;
-  top: 1px;
-  left: 5px;
-}
-.v37_20 {
+
+.TextInput2 {
   width: 198px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -172,9 +147,11 @@ body {
   opacity: 0.5;
   text-align: left;
 }
-.v37_21 {
+.recoverPassword {
   width: 130px;
   color: rgba(0, 0, 0, 1);
+  background-color: rgba(255, 255, 255, 1);
+  border: none;
   position: absolute;
   top: 610px;
   left: 1238px;
@@ -184,33 +161,22 @@ body {
   opacity: 1;
   text-align: left;
 }
-.v37_24 {
+.buttonSign {
   width: 463px;
   height: 55px;
-  background: rgba(196, 196, 196, 1);
+  background: rgba(0, 223, 192, 1);
   opacity: 1;
   position: absolute;
   top: 654px;
   left: 905px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border: none;
   overflow: hidden;
-}
-.v37_25 {
-  width: 88px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 667px;
-  left: 1092px;
-  font-family: Roboto;
-  font-weight: Regular;
   font-size: 24px;
-  opacity: 1;
-  text-align: left;
+
+  transition: filter 0.2s;
 }
-.v37_27 {
+
+.buttonRegister {
   width: 206px;
   height: 55px;
   background: rgba(0, 223, 192, 1);
@@ -218,25 +184,13 @@ body {
   position: absolute;
   top: 69px;
   left: 1162px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
   overflow: hidden;
+  border-radius: 5px;
+  border: none;
+  font-size: 16px;
 }
-.v37_28 {
-  width: 122px;
-  color: rgba(0, 0, 0, 1);
-  position: absolute;
-  top: 82px;
-  left: 1204px;
-  font-family: Roboto;
-  font-weight: Regular;
-  font-size: 24px;
-  opacity: 1;
-  text-align: left;
-}
-.v37_26 {
+
+.title {
   width: 170px;
   color: rgba(0, 0, 0, 1);
   position: absolute;
@@ -247,27 +201,4 @@ body {
   font-size: 24px;
   opacity: 1;
   text-align: left;
-}
-.v37_29 {
-  width: 848px;
-  height: 900px;
-  background: rgba(196, 196, 196, 1);
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
-}
-.v38_2 {
-  width: 848px;
-  height: 900px;
-  background: url("../images/v38_2.png");
-  background-repeat: no-repeat;
-  background-position: center center;
-  background-size: cover;
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
