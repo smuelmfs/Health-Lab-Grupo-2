@@ -1,37 +1,32 @@
 * {
   box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  cursor: pointer;
 }
 body {
   font-size: 14px;
 }
-.v38_29 {
-  width: 100%;
-  height: 900px;
-  background: rgba(255,255,255,1);
+.Container {
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-  overflow: hidden;
 }
+
 .v38_30 {
   width: 490px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 339px;
   left: 854px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
   overflow: hidden;
 }
 .v38_32 {
   width: 490px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 418px;
@@ -45,7 +40,7 @@ body {
 .v38_34 {
   width: 490px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 492px;
@@ -58,7 +53,7 @@ body {
 }
 .v38_36 {
   width: 70px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 502px;
   left: 918px;
@@ -70,7 +65,7 @@ body {
 }
 .v38_37 {
   width: 70px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 428px;
   left: 918px;
@@ -82,7 +77,7 @@ body {
 }
 .v38_38 {
   width: 67px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 349px;
   left: 917px;
@@ -95,7 +90,7 @@ body {
 .v38_39 {
   width: 48px;
   height: 50px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
   position: absolute;
   top: 338px;
@@ -109,7 +104,7 @@ body {
 .v38_40 {
   width: 48px;
   height: 50px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
   position: absolute;
   top: 417px;
@@ -123,7 +118,7 @@ body {
 .v38_41 {
   width: 48px;
   height: 50px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
   position: absolute;
   top: 492px;
@@ -137,7 +132,7 @@ body {
 .v38_51 {
   width: 490px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 572px;
@@ -150,7 +145,7 @@ body {
 }
 .v38_52 {
   width: 70px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 582px;
   left: 918px;
@@ -163,7 +158,7 @@ body {
 .v38_53 {
   width: 48px;
   height: 50px;
-  background: rgba(196,196,196,1);
+  background: rgba(196, 196, 196, 1);
   opacity: 1;
   position: absolute;
   top: 572px;
@@ -174,10 +169,9 @@ body {
   border-bottom-right-radius: 5px;
   overflow: hidden;
 }
-.v38_54 {
+.imageLock {
   width: 20px;
   height: 24px;
-  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 585px;
@@ -196,59 +190,32 @@ body {
 .v38_56 {
   width: 13px;
   height: 21px;
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
   opacity: 1;
   position: absolute;
   top: 1px;
   left: 3px;
 }
-.v38_45 {
+.imageMail {
   width: 20px;
   height: 24px;
-  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 430px;
   left: 868px;
   overflow: hidden;
 }
-.v38_46 {
-  width: 16px;
-  height: 16px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 1px;
-}
-.v38_47 {
-  width: 20px;
-  height: 24px;
-  background: url("../images/v38_47.png");
-  opacity: 1;
-  position: relative;
-  top: 0px;
-  left: 0px;
-}
-.v38_48 {
+
+.imageUser {
   width: 23px;
   height: 24px;
-  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 349px;
   left: 867px;
   overflow: hidden;
 }
-.v38_49 {
-  width: 15px;
-  height: 16px;
-  background: rgba(0,0,0,1);
-  opacity: 1;
-  position: absolute;
-  top: 4px;
-  left: 3px;
-}
+
 .v38_50 {
   width: 23px;
   height: 24px;
@@ -258,10 +225,9 @@ body {
   top: 0px;
   left: 0px;
 }
-.v38_57 {
+.ImageCpf {
   width: 20px;
   height: 24px;
-  background: rgba(255,255,255,1);
   opacity: 1;
   position: absolute;
   top: 505px;
@@ -280,57 +246,47 @@ body {
 .v38_59 {
   width: 15px;
   height: 20px;
-  background: rgba(0,0,0,1);
+  background: rgba(0, 0, 0, 1);
   opacity: 1;
   position: absolute;
   top: 1px;
   left: 2px;
 }
-.v38_60 {
-  width: 341px;
-  color: rgba(0,0,0,1);
+.title {
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 212px;
   left: 854px;
   font-family: Roboto;
   font-weight: Regular;
   font-size: 48px;
-  opacity: 1;
   text-align: left;
 }
-.v38_61 {
+.button {
   width: 490px;
   height: 55px;
-  background: rgba(196,196,196,1);
-  opacity: 1;
+  background: rgba(0, 223, 192, 1);
   position: absolute;
   top: 692px;
   left: 854px;
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  border-bottom-left-radius: 5px;
-  border-bottom-right-radius: 5px;
+  border-radius: 5px;
+  border: none;
   overflow: hidden;
-}
-.v38_62 {
-  width: 107px;
-  color: rgba(0,0,0,1);
-  position: absolute;
-  top: 705px;
-  left: 1055px;
+
   font-family: Roboto;
   font-weight: Regular;
   font-size: 24px;
-  opacity: 1;
-  text-align: left;
+  color: rgba(0, 0, 0, 1);
 }
+
 .v38_4819 {
-  width: 796px;
+  width: 800px;
   height: 900px;
-  background: rgba(0,223,192,1);
+  background: rgba(0, 223, 192, 1);
   opacity: 1;
   position: relative;
   top: 0px;
   left: 0px;
   overflow: hidden;
+  margin-right: 20px;
 }
