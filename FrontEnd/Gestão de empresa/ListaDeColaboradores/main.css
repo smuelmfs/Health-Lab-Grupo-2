@@ -7,7 +7,7 @@ body {
 .v66_1183 {
   width: 100%;
   height: 900px;
-  background: rgba(255,255,255,1);
+  background: rgba(255, 255, 255, 1);
   opacity: 1;
   position: relative;
   top: 0px;
@@ -17,7 +17,7 @@ body {
 .v62_1591 {
   width: 601px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 264px;
@@ -30,7 +30,7 @@ body {
 }
 .v62_1592 {
   width: 280px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 225px;
   left: 53px;
@@ -43,7 +43,7 @@ body {
 .v62_1593 {
   width: 601px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 378px;
@@ -56,7 +56,7 @@ body {
 }
 .v62_1594 {
   width: 211px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 339px;
   left: 53px;
@@ -69,7 +69,7 @@ body {
 .v62_1595 {
   width: 601px;
   height: 49px;
-  background: rgba(228,228,228,1);
+  background: rgba(228, 228, 228, 1);
   opacity: 1;
   position: absolute;
   top: 492px;
@@ -82,7 +82,7 @@ body {
 }
 .v62_1596 {
   width: 380px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 453px;
   left: 53px;
@@ -94,7 +94,7 @@ body {
 }
 .v62_1609 {
   width: 440px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 502px;
   left: 80px;
@@ -106,7 +106,7 @@ body {
 }
 .v62_1610 {
   width: 240px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 388px;
   left: 80px;
@@ -118,7 +118,7 @@ body {
 }
 .v62_1611 {
   width: 364px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 274px;
   left: 80px;
@@ -130,7 +130,7 @@ body {
 }
 .v62_1615 {
   width: 199px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 126px;
   left: 53px;
@@ -142,7 +142,7 @@ body {
 }
 .v62_1616 {
   width: 226px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 144px;
   left: 1108px;
@@ -155,7 +155,7 @@ body {
 .v62_1617 {
   width: 52px;
   height: 52px;
-  background: rgba(197,220,250,0.5);
+  background: rgba(197, 220, 250, 0.5);
   opacity: 1;
   position: absolute;
   top: 257px;
@@ -169,15 +169,14 @@ body {
 .v62_1618 {
   width: 24px;
   height: 26px;
-  background: rgba(15,86,179,1);
-  opacity: 1;
+  background: #c5dcfa;
   position: absolute;
   top: 270px;
   left: 854px;
 }
 .v62_1619 {
   width: 369px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 253px;
   left: 908px;
@@ -189,7 +188,7 @@ body {
 }
 .v62_1620 {
   width: 169px;
-  color: rgba(129,129,129,1);
+  color: rgba(129, 129, 129, 1);
   position: absolute;
   top: 287px;
   left: 908px;
@@ -202,7 +201,7 @@ body {
 .v62_1621 {
   width: 52px;
   height: 52px;
-  background: rgba(197,220,250,0.5);
+  background: rgba(197, 220, 250, 0.5);
   opacity: 1;
   position: absolute;
   top: 365px;
@@ -216,7 +215,7 @@ body {
 .v62_1622 {
   width: 24px;
   height: 26px;
-  background: rgba(15,86,179,1);
+  background: #c5dcfa;
   opacity: 1;
   position: absolute;
   top: 378px;
@@ -224,7 +223,7 @@ body {
 }
 .v62_1623 {
   width: 252px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 361px;
   left: 908px;
@@ -236,7 +235,7 @@ body {
 }
 .v62_1624 {
   width: 168px;
-  color: rgba(129,129,129,1);
+  color: rgba(129, 129, 129, 1);
   position: absolute;
   top: 395px;
   left: 908px;
@@ -249,7 +248,7 @@ body {
 .v62_1625 {
   width: 53px;
   height: 52px;
-  background: rgba(197,220,250,0.5);
+  background: rgba(197, 220, 250, 0.5);
   opacity: 1;
   position: absolute;
   top: 490px;
@@ -263,7 +262,7 @@ body {
 .v62_1626 {
   width: 23px;
   height: 26px;
-  background: rgba(15,86,179,1);
+  background: #c5dcfa;
   opacity: 1;
   position: absolute;
   top: 503px;
@@ -271,7 +270,7 @@ body {
 }
 .v62_1627 {
   width: 135px;
-  color: rgba(0,0,0,1);
+  color: rgba(0, 0, 0, 1);
   position: absolute;
   top: 486px;
   left: 908px;
@@ -283,7 +282,7 @@ body {
 }
 .v62_1628 {
   width: 169px;
-  color: rgba(129,129,129,1);
+  color: rgba(129, 129, 129, 1);
   position: absolute;
   top: 520px;
   left: 908px;
